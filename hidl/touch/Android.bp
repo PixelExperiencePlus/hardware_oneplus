@@ -15,7 +15,10 @@
 
 filegroup {
     name: "vendor.lineage.touch@1.0-oneplus-touchgesture",
-    srcs: ["TouchscreenGesture.cpp"],
+    srcs: [
+    	"TouchscreenGesture.cpp",
+    	"HighTouchPollingRate.cpp",
+    ],
 }
 
 cc_library_headers {
